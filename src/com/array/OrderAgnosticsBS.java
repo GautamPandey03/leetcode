@@ -13,17 +13,17 @@ public class OrderAgnosticsBS {
             }
             if(isagnostic){
                 if(target<arr[mid]){
-                    end-=mid;
+                    end=mid-1;
                 } else {
-                    start+=mid;
+                    start=mid+1;
                 }
 
             }
             else {
                 if(target<arr[mid]){
-                    start+=mid;
+                    start=mid+1;
                 } else {
-                    end-=mid;
+                    end=mid-1;
                 }
             }
         }return -1;
@@ -36,6 +36,6 @@ public class OrderAgnosticsBS {
 
     public static void main(String[] args) {
 
-        System.out.println(findTarget(new int[]{89,78,56,55,34,23},55));
+        System.out.println(findTarget(new int[]{89,78,56,55,34,23},78));
     }
 }
