@@ -22,6 +22,8 @@ public class MajorityElement {
     }
     public static void main(String[] args) {
         System.out.println(majorityElement(new int[]{2,2,3,3,1,2,2}));
+        double d =10/4.0;
+        System.out.println(d);
 
     }
 }
