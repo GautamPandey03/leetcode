@@ -24,7 +24,6 @@ public class FindDuplicate {
         }
         return false;
     }
-
     public static void main(String[] args) {
         System.out.println(containsDuplicate(new int[]{1,2,3,1}));
         System.out.println(getDuplicate(new int[]{1,2,3,4,1}));
