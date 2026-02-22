@@ -12,7 +12,7 @@ The goal of this repository is:
 ---
 
 ## 🚀 Language Used
-- Java 17
+- Java 11,17
 
 ---
 
