@@ -18,6 +18,6 @@ public class MoveZeroRight {
         }
     }
     public static void main(String[] args) {
-        moveZero(new int[]{0,0,2,0,3,4});
+        moveZero(new int[]{5,0,2,0,3,4});
     }
 }
